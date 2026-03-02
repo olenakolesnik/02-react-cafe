@@ -8,9 +8,9 @@ interface CafeInfoProps {
 function CafeInfo({ title, description }: CafeInfoProps) {
     return (
         <div className={css.container}>
-            <h1 className={css.title}>{title}</h1>
+            <h1 className={css.title}>Sip Happens Café</h1>
             <p className={css.description}>
-               {description}
+            Please rate our service by selecting one of the options below.
             </p>
         </div>
     );
