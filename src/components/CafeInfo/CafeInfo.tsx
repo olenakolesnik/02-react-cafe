@@ -1,11 +1,7 @@
 import css from './CafeInfo.module.css';
 
-interface CafeInfoProps {
-    title: string;
-    description: string;
-}
 
-function CafeInfo({ title, description }: CafeInfoProps) {
+function CafeInfo() {
     return (
         <div className={css.container}>
             <h1 className={css.title}>Sip Happens Café</h1>

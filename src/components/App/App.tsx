@@ -34,8 +34,6 @@ export default function App() {
       : 0;
     return <div className={css.app}>
        <CafeInfo
-  title="Sip Happens Café"
-  description="Please rate our service by selecting one of the options below."
         />
          <VoteOptions
         onVote={handleVote}
